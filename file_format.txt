@@ -1,0 +1,23 @@
+
+This file.txt is ground station vis file wrt each sat
+
+C2s series(0,1,2,3) and Ri2b(4,5,6) wrt Bangalore station(GS1)
+
+
+satnum start_hr start_min end_hr end_min start_range end_range
+
+
+vis.txt file format
+
+source_sat dest_sat start_hr start_min end_hr end_min range_col
+
+sat-0 to sat 4,5,6(Risat2b series)
+sat-1,2,3.(0,1,2,3 are in same plane) with in plane done have LOC
+across plane -1 & 2 only we are targetting.
+wrt Plane-1 to Plane -2 
+other way
+Plane-2 to Plane-1
+wrt Risat2b series(4,5,6) to C2s series(0,1,2,3)
+Relection feature across sats/planes to get back in same plane with
+LOC.
+
